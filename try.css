@@ -1,3 +1,32 @@
-*{
-    
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.cardtop {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #bbbbbb;
+  font-size: 0.9em;
+  background-color: aliceblue;
+  width: 100%;
 }

@@ -101,7 +101,7 @@ body {
   width: 50px;
   padding: 15px;
   border-radius: 50%;
-  box-shadow: 2px 0px 2px 2px black;
+  box-shadow: 1px 0px 1px 1px black;
 }
 
 .cta .image img {
@@ -243,76 +243,82 @@ body {
   gap: 90px;
 }
 
-.info1 {
+.left {
   width: 60%;
   background-color: white;
   height: 280px;
   padding: 30px;
   color: black;
   border-radius: 20px;
+  padding-top: 40px;
+}
+
+.left1 {
   display: flex;
-  gap: 40px;
+  width: 100%;
+}
+
+.left1-image {
   /* border: 2px solid black; */
-}
-
-.info1 h2{
-  /* position: absolute; */
-  
-}
-
-.info1-img {
   width: 40%;
+  height: 200px;
   display: flex;
   align-items: center;
-  /* border: 2px solid black; */
 }
 
-.info1-img p {
-  width: 100%;
-  height: 80%;
-  background-color: black;
-  border-radius: 20px;
-  position: relative;
-  right: 35px;
-}
-
-.info1-img img {
+.left1-image img {
+  width: 75%;
   height: 100%;
-  width: 100%;
   z-index: 999;
 }
 
-.info1-top {
+.left1-image p {
+  width: 50px;
+  height: 80%;
+  border-radius: 20px;
+  position: relative;
+  right: 30px;
+  /* z-index: -111; */
+  background-color: black;
+}
+
+.left-top {
   display: flex;
   width: 70%;
   height: fit-content;
-  /* border: 2px solid black; */
-  gap: 100px;
+  gap: 80px;
 }
 
-.info1-top h3 {
-  font-size: 13px;
-  text-transform: uppercase;
+.left-top p {
   width: 30%;
-  font-weight: 600;
-}
-
-.info-top1 {
-  width: 45%;
-  display: flex;
-  /* border: 2px solid black; */
-}
-
-.info-top1 p {
-  text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
-  /* margin-left: 25px; */
+  text-transform: uppercase;
 }
 
-.info1-top img {
+.left-middle {
+  width: 60%;
+  display: flex;
+}
+
+.left-middle img {
   width: 40px;
   height: 40px;
+}
+
+.left-middle h3 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.left h2 {
+  position: relative;
+  bottom: 60px;
+  left: 14rem;
+  text-transform: uppercase;
+  width: 50%;
 }
 
 .info2 {
@@ -338,7 +344,6 @@ body {
 
 .info2-middle {
   width: 50%;
-  
 }
 
 .info2-middle img {
@@ -365,7 +370,6 @@ body {
 .infoimg img {
   width: 30px;
   height: 30px;
-  
 }
 
 .info2-bottom {
@@ -379,7 +383,8 @@ body {
 }
 
 .info2-bottom h2 {
-  font-size: 12px;
+  width: fit-content;
+  font-size: 13px;
   border: 1px solid #ffb800;
   padding: 5px;
   border-radius: 20px;
