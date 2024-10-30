@@ -384,7 +384,6 @@ body {
 }
 
 .info2-bottom h2 {
-  width: fit-content;
   font-size: 13px;
   border: 1px solid #ffb800;
   padding: 5px;
@@ -401,3 +400,50 @@ body {
 }
 
 /* info section ends here  */
+
+/* media queries  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar ul {
+    display: block;
+    width: 10%;
+    border: 2px solid white;
+  }
+
+  .navbar ul li a {
+    color: white;
+  }
+
+  .cta {
+    /* display: none; */
+  }
+
+  .cta p {
+    padding: 10px;
+  }
+
+  .second {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) {
+  .info2-bottom {
+  
+    gap: 35px;
+    
+  }
+ 
+ 
+  .info2-bottom h2 {
+    width: fit-content;
+    font-size: 11px;
+    border: 1px solid #ffb800;
+    padding: 5px;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+
+
+}
