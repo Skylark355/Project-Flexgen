@@ -429,21 +429,14 @@ body {
 
 @media (min-width: 1281px) {
   .info2-bottom {
-  
     gap: 35px;
-    
   }
- 
- 
+
   .info2-bottom h2 {
-    width: fit-content;
     font-size: 11px;
     border: 1px solid #ffb800;
     padding: 5px;
     border-radius: 20px;
     text-transform: uppercase;
   }
-
-
-
 }
