@@ -438,6 +438,16 @@ body {
     height: 30px;
   }
 
+  .navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 20px 0 20px;
+    /* border: solid white; */
+  }
+
   .navbar ul li a {
     color: white;
     font-size: 12px;
@@ -458,7 +468,7 @@ body {
 
   .cta p {
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .cta .image {
@@ -482,14 +492,19 @@ body {
   .first {
     width: 100%;
     background-color: red;
-    height: 450px;
-    padding: 30px;
+    height: 350px;
+    padding: 10px;
     color: white;
     border-radius: 20px;
   }
 
+  .icon-box {
+    width: 100%;
+    margin: 20px 0 20px;
+  }
+
   .hero-text {
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     padding: 0 20px;
     margin-bottom: 50px;
@@ -508,7 +523,7 @@ body {
     display: flex;
     justify-content: center;
     font-weight: 800;
-    padding: 15px 15px;
+    padding: 10px 10px;
     font-size: 13px;
     align-items: center;
     background-color: #252525;
@@ -517,7 +532,7 @@ body {
   .hero-watermark {
     display: flex;
     width: 40%;
-    gap: 20px;
+    gap: 10px;
     text-transform: uppercase;
     align-items: center;
     font-size: 13px;
@@ -530,7 +545,7 @@ body {
   .second {
     width: 100%;
     /* background-color: red; */
-    height: 450px;
+    height: 350px;
     margin-top: 30px;
     color: white;
     border-radius: 20px;
@@ -551,11 +566,12 @@ body {
   .second h2 {
     position: absolute;
     bottom: 20px;
-    left: 50px;
+    left: 20px;
     font-size: 25px;
     width: 70%;
     font-weight: 800;
     color: white;
+    /* border: 2px solid black; */
   }
 
   .bottom {
@@ -566,45 +582,36 @@ body {
 
   .left {
     width: 100%;
-    /* background-color: red; */
-    height: 450px;
-    margin-top: 30px;
+    height: 300px;
     color: white;
     border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 40px;
+  
   }
 
   .left1 {
-    display: flex;
     width: 100%;
+    margin-top: 20px;
+    gap: 20px;
+    /* border: 2px solid black; */
   }
 
   .left1-image {
-    border: 2px solid black;
-    width: 50%;
-    /* height: 200px; */
-    display: flex;
-    align-items: center;
+    width: 100%;
+    height: 50%;
+    z-index: 1111;
   }
 
   .left1-image img {
     width: 100%;
     height: 90%;
-    border: 2px solid white;
-  }
-
-  .left1-image p {
-    width: 50px;
-    height: 80%;
-    border-radius: 20px;
-    position: relative;
-    right: 30px;
-    background-color: black;
+    /* border: 2px solid white; */
   }
 
   .left-top {
     display: block;
     width: 100%;
-    height: fit-content;
   }
 
   .left-top p {
@@ -613,8 +620,9 @@ body {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    border: 2px solid wheat;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid wheat; */
   }
 
   .left-middle {
@@ -630,23 +638,44 @@ body {
 
   .left-middle h3 {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
-    margin-left: 30px;
+    width: 100px;
     color: black;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .left h2 {
     position: relative;
-    bottom: 60px;
-    left: 7rem;
+    top: 20px;
+    bottom: 0px;
+    left: 0rem;
     text-transform: uppercase;
-    width: 50%;
+    width: 100%;
+    text-align: center;
     color: black;
   }
 
   .info2 {
-    /* display: none; */
-  } 
+    width: 100%;
+    height: 230px;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    /* border: 1px solid white; */
+  }
+
+  .info2-middle {
+    margin-left: 40px;
+  }
+
+  .info2-bottom{
+    gap: 15px;
+    /* border: 1px solid white; */
+  }
+
+  .bottom1 h2{
+    font-size: 8px;
+  }
 }
