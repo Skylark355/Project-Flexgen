@@ -491,7 +491,7 @@ body {
 
   .first {
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     height: 350px;
     padding: 10px;
     color: white;
@@ -582,12 +582,12 @@ body {
 
   .left {
     width: 100%;
-    height: 300px;
+    height: 350px;
     color: white;
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 40px;
-  
+    /* z-index: 1111; */
   }
 
   .left1 {
@@ -600,7 +600,7 @@ body {
   .left1-image {
     width: 100%;
     height: 50%;
-    z-index: 1111;
+    /* z-index: -111; */
   }
 
   .left1-image img {
@@ -670,12 +670,33 @@ body {
     margin-left: 40px;
   }
 
-  .info2-bottom{
+  .info2-bottom {
     gap: 15px;
     /* border: 1px solid white; */
   }
 
-  .bottom1 h2{
-    font-size: 8px;
+  .bottom1 h2 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar ul li a {
+    color: white;
+    font-size: 12px;
+    display: none;
+  }
+
+  .navbar{
+    padding: 0 70px 0;
+  }
+
+  .hero {
+    display: block;
+    padding: 20px;
+  }
+
+  .bottom{
+    display: block;
   }
 }
